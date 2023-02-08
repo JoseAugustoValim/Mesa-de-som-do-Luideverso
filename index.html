@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Alura MIDI</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+        <title>Alura MIDI</title>
 
-    <link rel="icon" type="image/png" href="images/bateria.png">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 
-</head>
-<body>
+        <link rel="icon" type="image/png" href="images/bateria.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/estilos.css">
 
-    <h1>Alura Midi</h1>
+    </head>
 
-    <section class="teclado">
-        <button class="tecla tecla_pom">Pom</button>
-        <button class="tecla tecla_clap">Clap</button>
-        <button class="tecla tecla_tim">Tim</button>
+    <body>
 
-        <button class="tecla tecla_puff">Puff</button>
-        <button class="tecla tecla_splash">Splash</button>
-        <button class="tecla tecla_toim">Toim</button>
+        <h1>Mesa Luideverso</h1>
 
-        <button class="tecla tecla_psh">Psh</button>
-        <button class="tecla tecla_tic">Tic</button>
-        <button class="tecla tecla_tom">Tom</button>
-    </section>
+        <section class="teclado">
+            <button onclick="alert('Acaba')" class="tecla tecla_acaba">Acaba</button>
+            <button class="tecla tecla_amerda">Vai a merda</button>
+            <button class="tecla tecla_calma">Calma</button>
 
-    <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
-    <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
-    <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
-    <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
-    <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
-    <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
-    <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
-    <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
-    <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
+            <button class="tecla tecla_meajuda">Ajuda</button>
+            <button class="tecla tecla_besteira">Besteira</button>
+            <button class="tecla tecla_vainao">Num vai nao</button>
 
-</body>
+            <button class="tecla tecla_ngmgosta">Ninguém</button>
+            <button class="tecla tecla_atencao">Atenção</button>
+            <button class="tecla tecla_engracado">Engracado</button>
+            </section>
+
+        <audio src="sounds/acaba-pelo-amor-deus-acabaaa.mp3" id="tecla_acaba"></audio>
+        <audio src="sounds/ah-va-a-merda.mp3" id="som_tecla_amerda"></audio>
+        <audio src="sounds/calma-filho-da-p.mp3" id="som_tecla_calma"></audio>
+        <audio src="sounds/ces-me-ajuda.mp3" id="som_tecla_meajuda"></audio>
+        <audio src="sounds/la-vem-besteira.mp3" id="som_tecla_besteira"></audio>
+        <audio src="sounds/ele-nao-vai-nao.mp3" id="som_tecla_vainao"></audio>
+        <audio src="sounds/ninguem-gosta-de-mim.mp3" id="som_tecla_ngmgosta"></audio>
+        <audio src="sounds/presta-atencao-que-e-importante.mp3" id="som_tecla_atencao"></audio>
+        <audio src="sounds/ta tao engracado hoje.mp3" id="som_tecla_engracado"></audio>
+
+    </body>
+
 </html>
